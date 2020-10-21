@@ -1,0 +1,120 @@
+/* Fonts and colors */
+
+
+body {
+	background-color: rgb(20, 20, 20);
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	color: #A9A9A9;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat' ;
+	font-weight: 700;
+	color: #00FBA8;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: #FF2968;
+	font-family: Helvetica, serif;
+	font-weight: bold;
+}
+a:hover {
+	color: #00FBA8;
+}
+
+ul li {
+	padding: 5px;
+}
+
+
+/* Custom design & Class */
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-black {
+	background: rgb(30, 30, 30);
+	padding: 30px;
+    border-radius: 7px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.4);
+    margin: 50px 0px;
+}
+
+#profile-pic {
+	border-radius: 50%;
+	box-shadow: 0px 7px 10px rgba(0,0,0,.7);
+}
+
+.btn-red {
+	background-color: #FF2968;
+	color: white;
+	padding: 10px;
+	border-radius: 7px;
+	text-align: center;
+}
+
+.btn-red:hover {
+	background-color: #00FBA8;
+	color: black;
+	padding: 10px;
+	border-radius: 7px;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color: #A9A9A9;
+}
+
+.list-inline i:hover {
+	font-size: 40px;
+	color: #FF2968;
+}
+
+#intro p {
+	margin-bottom: 40px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+
+
+
+
